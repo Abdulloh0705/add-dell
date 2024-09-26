@@ -7,8 +7,8 @@ function newFunction() {
   for (let i = 0; i < arr.length; i++) {
     if (arr[i] == 'add') {
       arr1.push(arr[1])
-    } else if (arr[i] == 'del') {
-      arr1.splice(1, 1)
+    } else if (arr[i] == 'dell') {
+      arr1.splice(0, 1)
     }
   }
   console.log(arr1);
